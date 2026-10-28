@@ -1,0 +1,13 @@
+# Normalise line endings so the repo is consistent across platforms.
+* text=auto eol=lf
+
+# Binary assets — never touch line endings.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+
+# Python
+*.py text eol=lf

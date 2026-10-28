@@ -1,0 +1,10 @@
+# Web framework
+Flask==3.1.3
+
+# PostgreSQL driver. Only loaded when DATABASE_URL points at Postgres, so
+# SQLite-only local development works without it installed.
+#   pip install -r requirements.txt
+psycopg[binary]==3.3.6
+
+# Production WSGI server (not used by `python app.py`, which is the dev server)
+gunicorn==23.0.0
